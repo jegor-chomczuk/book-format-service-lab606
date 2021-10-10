@@ -3,6 +3,8 @@ package com.EnterpriseJavaDevelopment62.BookFormatService.controller.dto;
 import com.EnterpriseJavaDevelopment62.BookFormatService.enums.Format;
 import lombok.*;
 
+import java.util.List;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -10,5 +12,5 @@ import lombok.*;
 public class SendingBookDTO {
 
     @NonNull
-    private Format format;
+    private List<Format> formats;
 }
